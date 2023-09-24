@@ -7,9 +7,9 @@ public class Lab_2_2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Input a number: ");
         int number = scanner.nextInt();
-        if(number % 2 != 1){
+        if (number % 2 != 1) {
             System.out.println("Even number!");
-        }else{
+        } else {
             System.out.println("Odd number!");
         }
     }
